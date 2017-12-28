@@ -1,0 +1,5 @@
+/*addition of two numbers with getting an input from user*/
+a=int(input("enter value for a"))
+b=int(input("enter value for b"))
+c=a+b
+print("addition of two number is",c)
