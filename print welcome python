@@ -1,0 +1,5 @@
+/* printing "Welcome python"*/
+/*printed in so many ways here describe only two*/
+print("Welcome python")
+print('Welcome python')
+print("'Welcome python'")//used for print on single quote
