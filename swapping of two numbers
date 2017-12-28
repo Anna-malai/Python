@@ -1,0 +1,12 @@
+/*
+swapping of two numbers
+*/
+input
+/* input represent as two integr*/
+a=int(input("Enter value a"));
+b=int(input("Enter value b"));
+print("Before swapping",a,b);
+c=a;
+a=b;
+b=c;
+print("After swapping",a,b)
