@@ -1,0 +1,15 @@
+/*
+#to print wheather amstrong or not
+*/
+n=int(input("Enter n"))
+m=n
+s=0
+while(n!=0):
+    r=n%10
+    p=r*r*r
+    s=s+p
+    n//=10
+if m==s:
+    print(m,"is an amstrong number")
+else:
+    print(m,"is not an amstrong number")
