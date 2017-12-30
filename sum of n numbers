@@ -1,0 +1,8 @@
+/*
+to print sum of 'N' natural numbers
+*/
+n=int(input("Enter n"))
+sum=0
+for i in range(1,n+1)://when not consider as n+1 it can take less than n value
+   sum=sum+i;
+   print("sum of",i,"is",sum);
