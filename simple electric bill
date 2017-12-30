@@ -1,0 +1,21 @@
+/*
+#to create an simple electricity bill
+#if consume 1 units cost as rs.consumed units*13.5;
+#if consume 2to5 uinits cost as rs.consume unit multiple time of 27.5 
+#if consume 6-10 units cost as rs. 56.5*consumed units
+#if more than 10 units cost 74.5*consume units
+
+*/
+con_uni=float(input("Enter the consumption units"))
+if(con_uni<2):
+    rs=float(con_uni*13.5)
+    print("current cost is",rs)
+elif(con_uni>=2 and con_uni<=5):
+    rs=con_uni*27.5;
+    print("current cost is",rs)
+elif(con_uni>5 and con_uni<=10):
+    rs=con_uni*56.5
+    print("current cost is",rs)
+else:
+    rs=con_uni*74.5;
+    print("current cost is",rs)
