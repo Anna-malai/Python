@@ -1,0 +1,11 @@
+#input: three numbers*/
+#using else-if ladder*/
+a=int(input("Enter the value for a"))
+b=int(input("Enter the value for b"))
+c=int(input("Enter the value for c"))
+if((a>=b) and (a>=c)):
+    print("a is larger value, value of a is ",a)
+elif (b>=c):
+    print("b is greater value, value of b is",b)
+else:
+    print("c is greater value, value of c is",c)
