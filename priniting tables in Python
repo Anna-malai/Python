@@ -1,0 +1,5 @@
+#to print a table
+a=int(input("Enter which table you wish"))
+for i in range(1,12):
+    b=a*i
+    print(a,"*",i,"=",b)
