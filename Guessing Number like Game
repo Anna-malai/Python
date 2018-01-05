@@ -1,0 +1,17 @@
+/*
+checking the guess number is apt or not compare to other random number
+*/
+import random
+n=random.randint(1,99)
+guess=int(input("Enter guess"))
+while n!="guess":
+    print
+    if guess<n:
+        print("your guess is low");
+        guess=int(input("Enter guess"))
+    elif guess>n:
+         print("your guess is high")
+         guess=int(input("Enter guess"))
+    else:
+        print("your guess is correct")
+        break
